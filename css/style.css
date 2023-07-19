@@ -101,7 +101,7 @@ section {
     height: 100vh;
     width: 100%;
     /* background-image: url(/img/ezaz.jpg); */
-    background-image: url(/img/ezaz.jpg);
+    background-image: url(./../img/ezaz.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
