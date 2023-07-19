@@ -511,6 +511,14 @@ form textarea {
     color: var(--text-color);
     background: var(--main-color);
 }
+.top i:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    box-shadow: 2px 2px 1px burlywood;
+
+
+}
+    
 
 @media (max-width: 1480px) {
     header {
@@ -568,6 +576,7 @@ form textarea {
         background: var(--bg-color);
         text-align: left;
         transition: all .45s ease;
+        grid-template-columns: 1fr;
 
     }
     .navlist a{
