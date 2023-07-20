@@ -100,7 +100,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    /* background-image: url(/img/ezaz.jpg); */
+
     background-image: url(./../img/ezaz.jpg);
     background-size: cover;
     background-position: center;
@@ -565,6 +565,14 @@ form textarea {
 @media (max-width: 480px){
     #menu-icon{
         display: block;
+    }
+    .contact-form{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-form form{
+        margin-bottom: 20px;
+
     }
     .navlist{
         position: absolute;
