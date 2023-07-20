@@ -569,6 +569,7 @@ form textarea {
     .contact-form{
         flex-direction: column;
         width: 100%;
+        padding: 10px;
     }
     .contact-form form{
         margin-bottom: 20px;
